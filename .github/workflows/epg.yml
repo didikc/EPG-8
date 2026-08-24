@@ -1,0 +1,198 @@
+name: Generate EPG
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'   # Run every 6 hours
+  workflow_dispatch:         # Allow manual trigger
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/epg.yml'
+      - 'list.xml'
+      - 'generate_epg.py'
+      - 'translator.py'
+
+permissions:
+  contents: write            # Allow committing changes
+
+concurrency:
+  group: git-write-lock      # Prevent overlapping runs
+  cancel-in-progress: false
+
+jobs:
+  build-epg:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install deep-translator langdetect lxml
+
+      - name: Clone IPTV-ORG EPG tool
+        run: git clone --depth 1 https://github.com/iptv-org/epg.git epg-tool
+
+      - name: Install Node dependencies
+        working-directory: epg-tool
+        run: npm ci
+
+      - name: Copy custom channels file
+        run: cp list.xml epg-tool/sites/list.xml
+
+      - name: Generate Base EPG
+        working-directory: epg-tool
+        run: |
+          npm run grab -- \
+            --channels=sites/list.xml \
+            --output=../epg.xml \
+            --maxConnections=8
+
+      - name: Backup pre-merge epg.xml
+        run: cp epg.xml epg.xml.bak
+
+      - name: Verify Unified EPG Output Is Well-Formed
+        run: |
+          python3 - <<'PY'
+          import xml.etree.ElementTree as ET
+          import sys
+
+          path = "epg.xml"
+          try:
+              root = ET.parse(path).getroot()
+          except Exception as e:
+              print(f"FATAL: epg.xml is not well-formed XML: {e}")
+              sys.exit(1)
+
+          channels = len(root.findall("channel"))
+          programmes = len(root.findall("programme"))
+          print(f"==== Unified EPG Stats ====")
+          print(f"Total Channels: {channels}")
+          print(f"Total Programmes: {programmes}")
+
+          if channels == 0 or programmes == 0:
+              print("FATAL: epg.xml has zero channels or programmes. Refusing to commit.")
+              sys.exit(1)
+          PY
+
+      - name: Translate EPG to English (keep Indonesian unchanged)
+        run: |
+          python3 translator.py epg.xml epg.xml
+
+      - name: Compress epg.xml to epg.xml.gz
+        run: |
+          gzip -c epg.xml > epg.xml.gz
+          ls -lh epg.xml.gz
+
+      - name: Upload epg.xml.gz Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: epg-output
+          path: epg.xml.gz
+
+      - name: Generate list.txt Index
+        run: |
+          python3 - <<'PY'
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+          import sys
+
+          src = Path("list.xml")
+          out = Path("list.txt")
+
+          try:
+              tree = ET.parse(src)
+          except Exception as e:
+              print(f"FATAL: failed to parse {src}: {e}")
+              sys.exit(1)
+
+          root = tree.getroot()
+          entries = []
+          for channel in root.findall("channel"):
+              tvg_id = channel.attrib.get("xmltv_id", "").strip()
+              name = (channel.text or "").strip()
+              if tvg_id:
+                  entries.append(f'{tvg_id} "{name}"')
+
+          entries = sorted(set(entries), key=lambda x: x.lower())
+          out.write_text("\n".join(entries), encoding="utf-8")
+          print(f"Generated channels.txt index with {len(entries)} items.")
+          PY
+
+      - name: Cleanup backup file
+        if: success()
+        run: rm -f epg.xml.bak
+
+      - name: Commit and Push (Keep History Clean)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A 
+
+          if git diff-index --quiet HEAD --; then
+            echo "No changes detected. Skipping commit."
+            exit 0
+          fi
+
+          LAST_AUTHOR=$(git log -1 --format='%ae')
+          BOT_EMAIL="41898282+github-actions[bot]@users.noreply.github.com"
+          TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
+          IS_AMEND=false
+
+          if [ "$LAST_AUTHOR" = "$BOT_EMAIL" ]; then
+            echo "Last commit by bot. Amending..."
+            git commit --amend --no-edit --date="$TIMESTAMP"
+            IS_AMEND=true
+          else
+            echo "Last commit by user. Creating new commit..."
+            git commit -m "Auto-Update $TIMESTAMP"
+          fi
+
+          for i in 1 2 3; do
+            echo "Syncing with remote (Attempt $i/3)..."
+            git fetch origin main
+
+            if ! git rebase origin/main -Xtheirs; then
+              echo "Rebase failed. Aborting."
+              git rebase --abort
+              exit 1
+            fi
+
+            echo "Pushing changes..."
+            if [ "$IS_AMEND" = true ]; then
+              PUSH_CMD="git push origin main --force-with-lease"
+            else
+              PUSH_CMD="git push origin main"
+            fi
+
+            if $PUSH_CMD; then
+              echo "Push done."
+              exit 0
+            fi
+
+            echo "Push rejected, tried rebase ..."
+            sleep 2
+          done
+
+          echo "Push failed 3 times."
+          exit 1
