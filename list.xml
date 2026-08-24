@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<channels>
+    <channel site="sky.com" site_id="GB#1120" lang="en" xmltv_id="TNTSports1.uk@HD">TNTSports1 HD</channel>
+    <channel site="sky.com" site_id="GB#3627" lang="en" xmltv_id="TNTSports2.uk@HD">TNTSports2 HD</channel>
+    <channel site="sky.com" site_id="GB#3629" lang="en" xmltv_id="TNTSports3.uk@HD">TNTSports3 HD</channel>
+    <channel site="sky.com" site_id="GB#4040" lang="en" xmltv_id="TNTSports4.uk@HD">TNTSports4 HD</channel>
+    <channel site="sky.com" site_id="GB#1192" lang="en" xmltv_id="PremierSports1.ie@HD">Premier 1 HD</channel>
+    <channel site="sky.com" site_id="GB#1193" lang="en" xmltv_id="PremierSports2.ie@HD">Premier 2 HD</channel>
+    <channel site="webtv.sk" site_id="sport_1" lang="sk" xmltv_id="">Sport 1</channel>
+    <channel site="webtv.sk" site_id="sport_2" lang="sk" xmltv_id="">Sport 2</channel>
+    <channel site="webtv.sk" site_id="nova_sport_1_hd" lang="sk" xmltv_id="">Nova Sport 1</channel>
+    <channel site="webtv.sk" site_id="nova_sport_2_hd" lang="sk" xmltv_id="">Nova Sport 2</channel>
+    <channel site="vodafone.pt" site_id="2687" lang="pt" xmltv_id="SportTV1.pt@SD">SportTV1</channel>
+    <channel site="vodafone.pt" site_id="2688" lang="pt" xmltv_id="SportTV2.pt@SD">SportTV2</channel>
+    <channel site="vodafone.pt" site_id="2689" lang="pt" xmltv_id="SportTV3.pt@SD">SportTV3</channel>
+    <channel site="mi.tv" site_id="mx#fox-sports" lang="es" xmltv_id="">FOX Sports</channel>
+    <channel site="mi.tv" site_id="mx#fox-sports-2" lang="es" xmltv_id="">FOX Sports 2</channel>
+    <channel site="mi.tv" site_id="mx#fox-sports-3" lang="es" xmltv_id="">FOX Sports 3</channel>
+    <channel site="tv.movistar.com.pe" site_id="lch2294" lang="es" xmltv_id="">FOX SPORTS PREMIUM</channel>
+    <channel site="zap2it.com" site_id="X/USA-DITV-DEFAULT/DITV/USA/12084/32281" lang="es" xmltv_id="">NBATV</channel>
+    <channel site="tvhebdo.com" site_id="tsn/TSN1" lang="fr" xmltv_id="TSN1.ca@SD">TSN1</channel>
+    <channel site="tvhebdo.com" site_id="tsn/TSN2" lang="fr" xmltv_id="TSN2.ca@SD">TSN2</channel>
+    <channel site="tvhebdo.com" site_id="tsn/TSN3" lang="fr" xmltv_id="TSN3.ca@SD">TSN3</channel>
+    <channel site="tvhebdo.com" site_id="tsn/TSN4" lang="fr" xmltv_id="TSN4.ca@SD">TSN4</channel>
+    <channel site="tvhebdo.com" site_id="tsn/TSN5" lang="fr" xmltv_id="TSN5.ca@SD">TSN (5)</channel>
+    <channel site="sky.com" site_id="GB#1003" lang="en" xmltv_id="MUTV.uk@SD">MUTV HD</channel>
+    <channel site="gatotv.com" site_id="barca_tv" lang="es" xmltv_id="">Canal Barça TV</channel>
+</channels>
