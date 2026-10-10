@@ -25,51 +25,47 @@
 <channel id="TSN5.ca@SD"><display-name>TSN (5)</display-name><icon src="https://i.imgur.com/HEzHpzz.png"/></channel>
 <channel id="MUTV.uk@SD"><display-name>MUTV HD</display-name><icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1834.png"/></channel>
 <channel id="barca_tv"><display-name>Canal Barça TV</display-name></channel>
-<programme start="20261010050000 +0000" stop="20261010060000 +0000" channel="barca_tv"><title lang="es">La hora B</title></programme>
-<programme start="20261010060000 +0000" stop="20261010073000 +0000" channel="barca_tv"><title lang="es">Futbol Sala</title></programme>
-<programme start="20261010073000 +0000" stop="20261010074000 +0000" channel="barca_tv"><title lang="es">600"</title></programme>
-<programme start="20261010074000 +0000" stop="20261010082500 +0000" channel="barca_tv"><title lang="es">Promeses</title></programme>
-<programme start="20261010082500 +0000" stop="20261010084500 +0000" channel="barca_tv"><title lang="es">Luis Suárez, els millors moments del bota d'or 2015/16</title></programme>
-<programme start="20261010084500 +0000" stop="20261010090000 +0000" channel="barca_tv"><title lang="es">600"</title></programme>
-<programme start="20261010090000 +0000" stop="20261010104500 +0000" channel="barca_tv"><title lang="es">Esport base</title></programme>
-<programme start="20261010104500 +0000" stop="20261010110000 +0000" channel="barca_tv"><title lang="es">600"</title></programme>
-<programme start="20261010110000 +0000" stop="20261010110500 +0000" channel="barca_tv"><title lang="es">Barça Notícies</title></programme>
-<programme start="20261010110500 +0000" stop="20261010123000 +0000" channel="barca_tv"><title lang="es">Tots els gols de la lliga 2015/16</title></programme>
-<programme start="20261010123000 +0000" stop="20261010131500 +0000" channel="barca_tv"><title lang="es">Seguim en joc</title></programme>
-<programme start="20261010131500 +0000" stop="20261010170000 +0000" channel="barca_tv"><title lang="es">Esport base</title></programme>
-<programme start="20261010170000 +0000" stop="20261010183000 +0000" channel="barca_tv"><title lang="es">Esport base</title></programme>
-<programme start="20261010183000 +0000" stop="20261010194500 +0000" channel="barca_tv"><title lang="es">Musical: Tots els gols del trident de la lliga 2015/16</title></programme>
-<programme start="20261010194500 +0000" stop="20261010201500 +0000" channel="barca_tv"><title lang="es">Quina Penya!</title></programme>
-<programme start="20261010201500 +0000" stop="20261010203000 +0000" channel="barca_tv"><title lang="es">Musical: Tots els gols de Dani Alves</title></programme>
-<programme start="20261010203000 +0000" stop="20261010210000 +0000" channel="barca_tv"><title lang="es">Seguim en joc</title></programme>
-<programme start="20261010210000 +0000" stop="20261011010000 +0000" channel="barca_tv"><title lang="es">El marcador cap de setmana</title></programme>
-<programme start="20261011010000 +0000" stop="20261011011500 +0000" channel="barca_tv"><title lang="es">Luis Suárez, els 9 moments del 2015/16</title></programme>
-<programme start="20261011011500 +0000" stop="20261011013000 +0000" channel="barca_tv"><title lang="es">600"</title></programme>
-<programme start="20261011013000 +0000" stop="20261011053000 +0000" channel="barca_tv"><title lang="es">El marcador cap de setmana</title></programme>
-<programme start="20261011013000 +0000" stop="20261011053000 +0000" channel="barca_tv"><title lang="es">El marcador cap de setmana</title></programme>
-<programme start="20261011053000 +0000" stop="20261011054500 +0000" channel="barca_tv"><title lang="es">600"</title></programme>
-<programme start="20261011054500 +0000" stop="20261011060000 +0000" channel="barca_tv"><title lang="es">Musical: Tots els gols de Neymar jr. de la lliga 2015/16</title></programme>
-<programme start="20261011060000 +0000" stop="20261011090000 +0000" channel="barca_tv"><title lang="es">El marcador cap de setmana</title></programme>
-<programme start="20261011090000 +0000" stop="20261011110000 +0000" channel="barca_tv"><title lang="es">El marcador cap de setmana</title></programme>
-<programme start="20261011110000 +0000" stop="20261011113000 +0000" channel="barca_tv"><title lang="es">El marcador cap de setmana</title></programme>
-<programme start="20261011113000 +0000" stop="20261011114500 +0000" channel="barca_tv"><title lang="es">Luis Suárez, els millors moments del bota d'or 2015/16</title></programme>
-<programme start="20261011114500 +0000" stop="20261011121500 +0000" channel="barca_tv"><title lang="es">Musical: Tots els gols del pitxixi Suárez</title></programme>
-<programme start="20261011121500 +0000" stop="20261011123000 +0000" channel="barca_tv"><title lang="es">600"</title></programme>
-<programme start="20261011123000 +0000" stop="20261011130000 +0000" channel="barca_tv"><title lang="es">Quina Penya!</title></programme>
-<programme start="20261011130000 +0000" stop="20261011144500 +0000" channel="barca_tv"><title lang="es">Futbol femení</title></programme>
-<programme start="20261011144500 +0000" stop="20261011164500 +0000" channel="barca_tv"><title lang="es">Esport base</title></programme>
-<programme start="20261011164500 +0000" stop="20261011183000 +0000" channel="barca_tv"><title lang="es">Lliga Santander</title></programme>
-<programme start="20261011183000 +0000" stop="20261011193000 +0000" channel="barca_tv"><title lang="es">S'ha demostrat! La pel·lícula de la temporada 2015/16</title></programme>
-<programme start="20261011193000 +0000" stop="20261011210000 +0000" channel="barca_tv"><title lang="es">Tots els gols de la lliga 2015/16</title></programme>
-<programme start="20261011210000 +0000" stop="20261011230000 +0000" channel="barca_tv"><title lang="es">El marcador cap de setmana</title></programme>
-<programme start="20261011230000 +0000" stop="20261012023000 +0000" channel="barca_tv"><title lang="es">El marcador cap de setmana</title></programme>
-<programme start="20261012023000 +0000" stop="20261012034500 +0000" channel="barca_tv"><title lang="es">Musical: Tots els gols del trident de la lliga 2015/16</title></programme>
-<programme start="20261012034500 +0000" stop="20261012041500 +0000" channel="barca_tv"><title lang="es">Seguim en joc</title></programme>
-<programme start="20261012041500 +0000" stop="20261012070000 +0000" channel="barca_tv"><title lang="es">El marcador cap de setmana</title></programme>
-<programme start="20261010160000 +0000" stop="20261010163000 +0000" channel="lch2294"><title lang="es">Icarus Sports : Gearing Up</title><desc lang="es">Un recorrido por la Brasil Stock Car Pro Series, el GT3 Gulf 12 Hours en Abu Dabi y el Monster Jam "ThunderROARus".</desc><image>http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/66/23661623_aed12a349da43dd25891f1c8c2dbf522.jpg</image></programme>
-<programme start="20261010163000 +0000" stop="20261010170000 +0000" channel="lch2294"><title lang="es">Icarus Sports : Women's Football Weekly</title><desc lang="es">Recopilación de los mejores momentos de la semana del fútbol femenino.</desc><image>http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/66/23661623_aed12a349da43dd25891f1c8c2dbf522.jpg</image></programme>
-<programme start="20261010170000 +0000" stop="20261010172000 +0000" channel="lch2294"><title lang="es">Steelers Insider</title><desc lang="es">Cobertura y toda la información relevante de los Pittsburgh Steelers en preparación para su campaña de la NFL.</desc></programme>
-<programme start="20261010172000 +0000" stop="20261010200000 +0000" channel="lch2294"><title lang="es">Baloncesto Liga ACB : Unicaja vs. MoraBanc Andorra</title><desc lang="es">Cobertura del partido de la semana 3 de la Liga ACB 2026-27. Desde el Palacio de Deportes José María Martín Carpena.</desc><image>http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/42/28426482_2f0d84e9f366afe6a43ebc5402d054f6.jpg</image></programme>
+<programme start="20261010041500 +0000" stop="20261010060000 +0000" channel="barca_tv"><title lang="es">Copa del Rei</title></programme>
+<programme start="20261010060000 +0000" stop="20261010070000 +0000" channel="barca_tv"><title lang="es">La hora B</title></programme>
+<programme start="20261010070000 +0000" stop="20261010083000 +0000" channel="barca_tv"><title lang="es">Futbol Sala</title></programme>
+<programme start="20261010083000 +0000" stop="20261010084000 +0000" channel="barca_tv"><title lang="es">600"</title></programme>
+<programme start="20261010084000 +0000" stop="20261010092500 +0000" channel="barca_tv"><title lang="es">Promeses</title></programme>
+<programme start="20261010092500 +0000" stop="20261010094500 +0000" channel="barca_tv"><title lang="es">Luis Suárez, els millors moments del bota d'or 2015/16</title></programme>
+<programme start="20261010094500 +0000" stop="20261010100000 +0000" channel="barca_tv"><title lang="es">600"</title></programme>
+<programme start="20261010100000 +0000" stop="20261010114500 +0000" channel="barca_tv"><title lang="es">Esport base</title></programme>
+<programme start="20261010114500 +0000" stop="20261010120000 +0000" channel="barca_tv"><title lang="es">600"</title></programme>
+<programme start="20261010120000 +0000" stop="20261010120500 +0000" channel="barca_tv"><title lang="es">Barça Notícies</title></programme>
+<programme start="20261010120500 +0000" stop="20261010133000 +0000" channel="barca_tv"><title lang="es">Tots els gols de la lliga 2015/16</title></programme>
+<programme start="20261010133000 +0000" stop="20261010141500 +0000" channel="barca_tv"><title lang="es">Seguim en joc</title></programme>
+<programme start="20261010141500 +0000" stop="20261010180000 +0000" channel="barca_tv"><title lang="es">Esport base</title></programme>
+<programme start="20261010180000 +0000" stop="20261010193000 +0000" channel="barca_tv"><title lang="es">Esport base</title></programme>
+<programme start="20261010193000 +0000" stop="20261010204500 +0000" channel="barca_tv"><title lang="es">Musical: Tots els gols del trident de la lliga 2015/16</title></programme>
+<programme start="20261010204500 +0000" stop="20261010211500 +0000" channel="barca_tv"><title lang="es">Quina Penya!</title></programme>
+<programme start="20261010211500 +0000" stop="20261010213000 +0000" channel="barca_tv"><title lang="es">Musical: Tots els gols de Dani Alves</title></programme>
+<programme start="20261010213000 +0000" stop="20261010220000 +0000" channel="barca_tv"><title lang="es">Seguim en joc</title></programme>
+<programme start="20261010220000 +0000" stop="20261011020000 +0000" channel="barca_tv"><title lang="es">El marcador cap de setmana</title></programme>
+<programme start="20261011020000 +0000" stop="20261011021500 +0000" channel="barca_tv"><title lang="es">Luis Suárez, els 9 moments del 2015/16</title></programme>
+<programme start="20261011021500 +0000" stop="20261011023000 +0000" channel="barca_tv"><title lang="es">600"</title></programme>
+<programme start="20261011023000 +0000" stop="20261011063000 +0000" channel="barca_tv"><title lang="es">El marcador cap de setmana</title></programme>
+<programme start="20261011023000 +0000" stop="20261011063000 +0000" channel="barca_tv"><title lang="es">El marcador cap de setmana</title></programme>
+<programme start="20261011063000 +0000" stop="20261011064500 +0000" channel="barca_tv"><title lang="es">600"</title></programme>
+<programme start="20261011064500 +0000" stop="20261011070000 +0000" channel="barca_tv"><title lang="es">Musical: Tots els gols de Neymar jr. de la lliga 2015/16</title></programme>
+<programme start="20261011070000 +0000" stop="20261011100000 +0000" channel="barca_tv"><title lang="es">El marcador cap de setmana</title></programme>
+<programme start="20261011100000 +0000" stop="20261011120000 +0000" channel="barca_tv"><title lang="es">El marcador cap de setmana</title></programme>
+<programme start="20261011120000 +0000" stop="20261011123000 +0000" channel="barca_tv"><title lang="es">El marcador cap de setmana</title></programme>
+<programme start="20261011123000 +0000" stop="20261011124500 +0000" channel="barca_tv"><title lang="es">Luis Suárez, els millors moments del bota d'or 2015/16</title></programme>
+<programme start="20261011124500 +0000" stop="20261011131500 +0000" channel="barca_tv"><title lang="es">Musical: Tots els gols del pitxixi Suárez</title></programme>
+<programme start="20261011131500 +0000" stop="20261011133000 +0000" channel="barca_tv"><title lang="es">600"</title></programme>
+<programme start="20261011133000 +0000" stop="20261011140000 +0000" channel="barca_tv"><title lang="es">Quina Penya!</title></programme>
+<programme start="20261011140000 +0000" stop="20261011154500 +0000" channel="barca_tv"><title lang="es">Futbol femení</title></programme>
+<programme start="20261011154500 +0000" stop="20261011174500 +0000" channel="barca_tv"><title lang="es">Esport base</title></programme>
+<programme start="20261011174500 +0000" stop="20261011193000 +0000" channel="barca_tv"><title lang="es">Lliga Santander</title></programme>
+<programme start="20261011193000 +0000" stop="20261011203000 +0000" channel="barca_tv"><title lang="es">S'ha demostrat! La pel·lícula de la temporada 2015/16</title></programme>
+<programme start="20261011203000 +0000" stop="20261011220000 +0000" channel="barca_tv"><title lang="es">Tots els gols de la lliga 2015/16</title></programme>
+<programme start="20261011220000 +0000" stop="20261012000000 +0000" channel="barca_tv"><title lang="es">El marcador cap de setmana</title></programme>
+<programme start="20261012000000 +0000" stop="20261012033000 +0000" channel="barca_tv"><title lang="es">El marcador cap de setmana</title></programme>
+<programme start="20261012033000 +0000" stop="20261012044500 +0000" channel="barca_tv"><title lang="es">Musical: Tots els gols del trident de la lliga 2015/16</title></programme>
+<programme start="20261012044500 +0000" stop="20261012051500 +0000" channel="barca_tv"><title lang="es">Seguim en joc</title></programme>
 <programme start="20261010200000 +0000" stop="20261010210000 +0000" channel="lch2294"><title lang="es">Equitación : Campeonatos Mundiales Ecuestres FEI Aquisgrán 2026: Salto</title><desc lang="es">Compacto de la prueba de salto en el Campeonato Mundial Ecuestre FEI Aquisgrán 2026. Disputado del 19 al 23 de agosto de 2026.</desc><image>http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/28/28282568_232ce80930770f9ab68a81d65a918eb4.jpg</image></programme>
 <programme start="20261010210000 +0000" stop="20261010220000 +0000" channel="lch2294"><title lang="es">Copa Mundial de Socca 2026 : Brasil vs. Albania</title><desc lang="es">Brasil y Albania se enfrentan por el pase a cuartos de final de la Copa Mundial de Socca 2026. Desde el Kennedyplatz, en Essen, Alemania.</desc><image>http://media.gvp.telefonica.com/storageArea0/IMAGES/00/27/79/27796736_b908b200df6065415c3e18d03491c5d7.jpg</image></programme>
 <programme start="20261010220000 +0000" stop="20261011000000 +0000" channel="lch2294"><title lang="es">All Elite Wrestling: Dynamite</title><desc lang="es">La lucha más intensa llega con AEW Dynamite: combates espectaculares, rivalidades al límite y estrellas que lo dejan todo en el ring.</desc><image>http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/40/28409107_4f4f5eb65095cf44ebf6053716ab06f4.jpg</image></programme>
@@ -82,7 +78,6 @@
 <programme start="20261011070000 +0000" stop="20261011090000 +0000" channel="lch2294"><title lang="es">Baloncesto Liga ACB : Unicaja vs. MoraBanc Andorra</title><desc lang="es">Cobertura del partido de la semana 3 de la Liga ACB 2026-27. Desde el Palacio de Deportes José María Martín Carpena.</desc><image>http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/42/28426482_2f0d84e9f366afe6a43ebc5402d054f6.jpg</image></programme>
 <programme start="20261011090000 +0000" stop="20261011093000 +0000" channel="lch2294"><title lang="es">Mediterranean Games</title><desc lang="es">El espíritu olímpico se enciende en la región mediterránea: talento, competencia y emoción en cada prueba rumbo a la grandeza deportiva.</desc><image>http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/96/23960818_2abd8b74f626eea60e029dd361799e6f.jpg</image></programme>
 <programme start="20261011093000 +0000" stop="20261011120000 +0000" channel="lch2294"><title lang="es">Fútbol Rápido MASL : St. Louis Ambush vs. Utica City FC</title><desc lang="es">Toda la acción de la temporada regular 2025-26 de la MASL. Utica City visita a St. Louis Ambush. Desde el Family Arena, en St. Charles, Misuri.</desc><image>http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/46/23461125_00c476ab3e0352fd701a9f8c45d947ba.jpg</image></programme>
-<programme start="20261011093000 +0000" stop="20261011120000 +0000" channel="lch2294"><title lang="es">Fútbol Rápido MASL : St. Louis Ambush vs. Utica City FC</title><desc lang="es">Toda la acción de la temporada regular 2025-26 de la MASL. Utica City visita a St. Louis Ambush. Desde el Family Arena, en St. Charles, Misuri.</desc><image>http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/46/23461125_00c476ab3e0352fd701a9f8c45d947ba.jpg</image></programme>
 <programme start="20261011120000 +0000" stop="20261011140000 +0000" channel="lch2294"><title lang="es">Baloncesto Liga ACB : Unicaja vs. MoraBanc Andorra</title><desc lang="es">Cobertura del partido de la semana 3 de la Liga ACB 2026-27. Desde el Palacio de Deportes José María Martín Carpena.</desc><image>http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/42/28426482_2f0d84e9f366afe6a43ebc5402d054f6.jpg</image></programme>
 <programme start="20261011140000 +0000" stop="20261011143000 +0000" channel="lch2294"><title lang="es">Steelers Insider</title><desc lang="es">Cobertura y toda la información relevante de los Pittsburgh Steelers en preparación para su campaña de la NFL.</desc></programme>
 <programme start="20261011143000 +0000" stop="20261011145000 +0000" channel="lch2294"><title lang="es">FIBA Highlights</title><desc lang="es">Una recopilación con los mejores momentos de los partidos de la Federación Internacional de Baloncesto.</desc><image>http://media.gvp.telefonica.com/storageArea0/IMAGES/00/26/02/26029683_0f155eb5faa9d283bb125ce6f2b6dd42.jpg</image></programme>
@@ -90,6 +85,7 @@
 <programme start="20261011145000 +0000" stop="20261011173000 +0000" channel="lch2294"><title lang="es">Baloncesto Liga ACB : Kosner Baskonia vs. Asisa Joventut</title><desc lang="es">Semana 3 de la Liga ACB temporada 2026-27. En su último cara a cara, de mayo pasado, Joventut venció a Baskonia por 88-96. Desde el Fernando Buesa Arena, en Vitoria-Gasteiz.</desc><image>http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/42/28426553_94e479a9fc582ed02b90c833d6218dec.jpg</image></programme>
 <programme start="20261011173000 +0000" stop="20261011180000 +0000" channel="lch2294"><title lang="es">FIA TCR World Tour</title><desc lang="es">Cobertura, reportajes, análisis y resúmenes del campeonato internacional de automóviles de turismo: TCR World Tour.</desc><image>http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/93/23935622_b416246ae56feb3f5316d2d01898c5a7.jpg</image></programme>
 <programme start="20261011180000 +0000" stop="20261011190000 +0000" channel="lch2294"><title lang="es">Automovilismo : Abu Dhabi Autonomous Racing League: Imola 2026</title><desc lang="es">Los momentos más destacados de la Liga Abu Dabi de carreras de vehículos autónomos. Disputado el 5 de septiembre de 2026, en el autódromo Enzo e Dino Ferrari, en Imola, Italia.</desc><image>http://media.gvp.telefonica.com/storageArea0/IMAGES/00/20/62/20620800_06D1FE2074E2EB3B.jpg</image></programme>
+<programme start="20261011190000 +0000" stop="20261011210000 +0000" channel="lch2294"><title lang="es">AEW Collision</title><desc lang="es">Los populares luchadores profesionales del roster (plantilla) de AEW compiten entre sí en luchas cada sábado para ganar el título de campeón.</desc><image>http://media.gvp.telefonica.com/storageArea0/IMAGES/00/21/28/21288894_DD822F19DD347BC8.jpg</image></programme>
 <programme start="20261011190000 +0000" stop="20261011210000 +0000" channel="lch2294"><title lang="es">AEW Collision</title><desc lang="es">Los populares luchadores profesionales del roster (plantilla) de AEW compiten entre sí en luchas cada sábado para ganar el título de campeón.</desc><image>http://media.gvp.telefonica.com/storageArea0/IMAGES/00/21/28/21288894_DD822F19DD347BC8.jpg</image></programme>
 <programme start="20261011210000 +0000" stop="20261011220000 +0000" channel="lch2294"><title lang="es">Equitación : Campeonatos Mundiales Ecuestres FEI Aquisgrán 2026: Salto</title><desc lang="es">Compacto de la prueba de salto en el Campeonato Mundial Ecuestre FEI Aquisgrán 2026. Disputado del 19 al 23 de agosto de 2026.</desc><image>http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/28/28282568_232ce80930770f9ab68a81d65a918eb4.jpg</image></programme>
 <programme start="20261011220000 +0000" stop="20261012000000 +0000" channel="lch2294"><title lang="es">Baloncesto Mexicano LNBP : Dorados de Chihuahua vs. Gambusinos de Fresnillo</title><desc lang="es">Cobertura del primer juego del Play-in de la LNBP 2026. Dorados de Chihuahua se enfrenta a Gambusinos de Fresnillo. Desde el gimnasio Manuel Bernardo Aguirre, en Chihuahua.</desc><image>http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/48/28484062_e5984f8db974da3aa21d81ba0c38d3bc.jpg</image></programme>
@@ -102,6 +98,11 @@
 <programme start="20261012120000 +0000" stop="20261012140000 +0000" channel="lch2294"><title lang="es">Baloncesto Liga ACB : Kosner Baskonia vs. Asisa Joventut</title><desc lang="es">Semana 3 de la Liga ACB temporada 2026-27. En su último cara a cara, de mayo pasado, Joventut venció a Baskonia por 88-96. Desde el Fernando Buesa Arena, en Vitoria-Gasteiz.</desc><image>http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/42/28426553_94e479a9fc582ed02b90c833d6218dec.jpg</image></programme>
 <programme start="20261012140000 +0000" stop="20261012160000 +0000" channel="lch2294"><title lang="es">All Elite Wrestling: Dynamite</title><desc lang="es">La lucha más intensa llega con AEW Dynamite: combates espectaculares, rivalidades al límite y estrellas que lo dejan todo en el ring.</desc><image>http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/40/28409107_4f4f5eb65095cf44ebf6053716ab06f4.jpg</image></programme>
 <programme start="20261012160000 +0000" stop="20261012180000 +0000" channel="lch2294"><title lang="es">Baloncesto Liga ACB : Leyma Coruña vs. Casademont Zaragoza</title><desc lang="es">Cobertura del partido de la semana 3 de la Liga ACB 2026-27. Desde el Coliseum de La Coruña, en La Coruña.</desc><image>http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/42/28426683_cc3a5849715f32a315aa79873ec84cb8.jpg</image></programme>
+<programme start="20261012180000 +0000" stop="20261012190000 +0000" channel="lch2294"><title lang="es">Lucha Libre CMLL : Retro</title><desc lang="es">Viaja a la época dorada de la lucha libre mexicana con combates legendarios, grandes rivalidades y los momentos que hicieron grande al CMLL.</desc><image>http://media.gvp.telefonica.com/storageArea0/IMAGES/00/25/26/25269362_ea47764ca79ba5094ff67b9570dd9360.jpg</image></programme>
+<programme start="20261012190000 +0000" stop="20261012193000 +0000" channel="lch2294"><title lang="es">Automovilismo : QMMF 24 Hours of Le Mans</title><image>http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/42/28426426_83a7adcf9521a33c447376f98cb79f67.jpg</image></programme>
+<programme start="20261012193000 +0000" stop="20261012200000 +0000" channel="lch2294"><title lang="es">Icarus Sports : The Outdoor Sports Show</title><desc lang="es">Exploramos el mundo a través de hazañas únicas, donde la aventura, la naturaleza y el esfuerzo se viven al máximo.</desc><image>http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/66/23661623_aed12a349da43dd25891f1c8c2dbf522.jpg</image></programme>
+<programme start="20261012200000 +0000" stop="20261012203000 +0000" channel="lch2294"><title lang="es">Icarus Sports : Gearing Up</title><desc lang="es">Un recorrido por la Brasil Stock Car Pro Series, el GT3 Gulf 12 Hours en Abu Dabi y el Monster Jam "ThunderROARus".</desc><image>http://media.gvp.telefonica.com/storageArea0/IMAGES/00/23/66/23661623_aed12a349da43dd25891f1c8c2dbf522.jpg</image></programme>
+<programme start="20261012203000 +0000" stop="20261012223000 +0000" channel="lch2294"><title lang="es">Baloncesto Liga ACB : Surne Bilbao vs. Recoletas Salud San Pablo Burgos</title><desc lang="es">Semana 3 de la Liga ACB temporada 2026-27. Bilbao viene de perder por 104-101 ante Coruña, mientras que Burgos venció por 81-94 a Lleida. Desde el Bilbao Arena.</desc><image>http://media.gvp.telefonica.com/storageArea0/IMAGES/00/28/47/28471312_88e3ac4c68eae95663ff704b0e060691.jpg</image></programme>
 <programme start="20261010000000 +0000" stop="20261010003000 +0000" channel="MUTV.uk@SD"><title lang="en">PL: United v Tottenham 15/16</title><desc lang="en">United Archives 8/8/15. The Reds kicked off the campaign against Spurs with a host of new players in the line-up.</desc><icon src="https://images.metadata.sky.com/pd-image/2b44196f-4275-4866-9a33-3a98133d40a6/16-9/640"/><image>https://images.metadata.sky.com/pd-image/2b44196f-4275-4866-9a33-3a98133d40a6/16-9/640</image></programme>
 <programme start="20261010003000 +0000" stop="20261010004500 +0000" channel="MUTV.uk@SD"><title lang="en">Press Conference</title><desc lang="en">In full &amp; uncut: pre-match press conference, including the embargoed sections, ahead of our Premier League match against Tottenham Hotspur.</desc><icon src="https://images.metadata.sky.com/pd-image/30740c4e-a717-41dc-a4a2-2c7c8940513f/16-9/640"/><image>https://images.metadata.sky.com/pd-image/30740c4e-a717-41dc-a4a2-2c7c8940513f/16-9/640</image></programme>
 <programme start="20261010004500 +0000" stop="20261010010000 +0000" channel="MUTV.uk@SD"><title lang="en">PL: United v Tottenham 17/18</title><desc lang="en">United Archives 28/10/17. United hoped to keep pressure on league leaders Manchester City as they welcomed Mauricio Pochettino's Tottenham side to Old Trafford.</desc><icon src="https://images.metadata.sky.com/pd-image/35a0711b-66fc-4665-ac42-939e5fd2c8ae/16-9/640"/><image>https://images.metadata.sky.com/pd-image/35a0711b-66fc-4665-ac42-939e5fd2c8ae/16-9/640</image></programme>
@@ -805,7 +806,6 @@
 <programme start="20261011210000 +0000" stop="20261011220000 +0000" channel="TNTSports4.uk@HD"><title lang="en">Marathon: Chicago 2026</title><desc lang="en">Coverage of the 48th running of the Bank of America Chicago Marathon, a flat and fast course which starts and ends at Grant Park.</desc><icon src="https://images.metadata.sky.com/pd-image/2064029e-357f-4c78-9d34-f77fadcb17e5/16-9/640"/><image>https://images.metadata.sky.com/pd-image/2064029e-357f-4c78-9d34-f77fadcb17e5/16-9/640</image></programme>
 <programme start="20261011220000 +0000" stop="20261011230000 +0000" channel="TNTSports4.uk@HD"><title lang="en">European Championship Shotgun 2026</title><desc lang="en">Action from the Trap Solo Shotgun Men event at the European Championship.</desc><icon src="https://images.metadata.sky.com/pd-image/43bd905c-73d4-4d11-a391-d1f53d9526f5/16-9/640"/><image>https://images.metadata.sky.com/pd-image/43bd905c-73d4-4d11-a391-d1f53d9526f5/16-9/640</image></programme>
 <programme start="20261011230000 +0000" stop="20261012000000 +0000" channel="TNTSports4.uk@HD"><title lang="en">3rd T20: India v West Indies</title><desc lang="en">With this five-game T20 series tied at 1-1, India and West Indies head to Holkar Stadium in Indore for a crucial showdown.</desc><icon src="https://images.metadata.sky.com/pd-image/0bc0a587-bbc1-4bc8-bba5-78239bcef4e0/16-9/640"/><image>https://images.metadata.sky.com/pd-image/0bc0a587-bbc1-4bc8-bba5-78239bcef4e0/16-9/640</image></programme>
-<programme start="20261010193000 +0000" stop="20261010230000 +0000" channel="TSN1.ca@SD"><title lang="fr">Football de la NCAA</title></programme>
 <programme start="20261010230000 +0000" stop="20261011020000 +0000" channel="TSN1.ca@SD"><title lang="fr">Football</title></programme>
 <programme start="20261011020000 +0000" stop="20261011030000 +0000" channel="TSN1.ca@SD"><title lang="fr">Sportscentre</title></programme>
 <programme start="20261011030000 +0000" stop="20261011040000 +0000" channel="TSN1.ca@SD"><title lang="fr">Sportscentre</title></programme>
@@ -832,13 +832,14 @@
 <programme start="20261011130000 +0000" stop="20261011140000 +0000" channel="TSN1.ca@SD"><title lang="fr">Sportscentre</title></programme>
 <programme start="20261011130000 +0000" stop="20261011140000 +0000" channel="TSN1.ca@SD"><title lang="fr">Sportscentre</title></programme>
 <programme start="20261011140000 +0000" stop="20261011170000 +0000" channel="TSN1.ca@SD"><title lang="fr">NFL Countdown</title></programme>
-<programme start="20261011140000 +0000" stop="20261011143000 +0000" channel="TSN1.ca@SD"><title lang="fr">NFL Countdown</title></programme>
+<programme start="20261011140000 +0000" stop="20261011170000 +0000" channel="TSN1.ca@SD"><title lang="fr">NFL Countdown</title></programme>
 <programme start="20261011170000 +0000" stop="20261011200000 +0000" channel="TSN1.ca@SD"><title lang="fr">Football</title></programme>
+<programme start="20261011170000 +0000" stop="20261011200000 +0000" channel="TSN1.ca@SD"><title lang="fr">Football</title></programme>
+<programme start="20261011200000 +0000" stop="20261011203000 +0000" channel="TSN1.ca@SD"><title lang="fr">Football</title></programme>
 <programme start="20261011200000 +0000" stop="20261011230000 +0000" channel="TSN1.ca@SD"><title lang="fr">Football</title></programme>
 <programme start="20261011230000 +0000" stop="20261012001500 +0000" channel="TSN1.ca@SD"><title lang="fr">Football Night in America</title></programme>
 <programme start="20261012001500 +0000" stop="20261012033000 +0000" channel="TSN1.ca@SD"><title lang="fr">Football</title></programme>
 <programme start="20261012033000 +0000" stop="20261012040000 +0000" channel="TSN1.ca@SD"><title lang="fr">SC With Jay and Dan</title></programme>
-<programme start="20261010193000 +0000" stop="20261010230000 +0000" channel="TSN2.ca@SD"><title lang="fr">Football de la NCAA</title></programme>
 <programme start="20261010230000 +0000" stop="20261010233000 +0000" channel="TSN2.ca@SD"><title lang="fr">College Football Studio</title></programme>
 <programme start="20261010233000 +0000" stop="20261011030000 +0000" channel="TSN2.ca@SD"><title lang="fr">Football de la NCAA</title></programme>
 <programme start="20261011030000 +0000" stop="20261011033000 +0000" channel="TSN2.ca@SD"><title lang="fr">SC</title></programme>
@@ -851,12 +852,15 @@
 <programme start="20261011090000 +0000" stop="20261011113000 +0000" channel="TSN2.ca@SD"><title lang="fr">Raptors Preseason Basketball</title></programme>
 <programme start="20261011113000 +0000" stop="20261011143000 +0000" channel="TSN2.ca@SD"><title lang="fr">Football</title></programme>
 <programme start="20261011113000 +0000" stop="20261011143000 +0000" channel="TSN2.ca@SD"><title lang="fr">Football</title></programme>
-<programme start="20261011113000 +0000" stop="20261011120000 +0000" channel="TSN2.ca@SD"><title lang="fr">Football</title></programme>
+<programme start="20261011143000 +0000" stop="20261011170000 +0000" channel="TSN2.ca@SD"><title lang="fr">Raptors Preseason Basketball</title></programme>
 <programme start="20261011143000 +0000" stop="20261011170000 +0000" channel="TSN2.ca@SD"><title lang="fr">Raptors Preseason Basketball</title></programme>
 <programme start="20261011143000 +0000" stop="20261011150000 +0000" channel="TSN2.ca@SD"><title lang="fr">Raptors Preseason Basketball</title></programme>
 <programme start="20261011170000 +0000" stop="20261011180000 +0000" channel="TSN2.ca@SD"><title lang="fr">2023 PBR Tour (Canadian Events)</title></programme>
+<programme start="20261011170000 +0000" stop="20261011180000 +0000" channel="TSN2.ca@SD"><title lang="fr">2023 PBR Tour (Canadian Events)</title></programme>
+<programme start="20261011180000 +0000" stop="20261011200000 +0000" channel="TSN2.ca@SD"><title lang="fr">WNBA Playoffs</title></programme>
 <programme start="20261011180000 +0000" stop="20261011200000 +0000" channel="TSN2.ca@SD"><title lang="fr">WNBA Playoffs</title></programme>
 <programme start="20261011200000 +0000" stop="20261011220000 +0000" channel="TSN2.ca@SD"><title lang="fr">WNBA Playoffs</title></programme>
+<programme start="20261011200000 +0000" stop="20261011203000 +0000" channel="TSN2.ca@SD"><title lang="fr">WNBA Playoffs</title></programme>
 <programme start="20261011220000 +0000" stop="20261011223000 +0000" channel="TSN2.ca@SD"><title lang="fr">SC</title></programme>
 <programme start="20261011223000 +0000" stop="20261011230000 +0000" channel="TSN2.ca@SD"><title lang="fr">SC</title></programme>
 <programme start="20261011230000 +0000" stop="20261011233000 +0000" channel="TSN2.ca@SD"><title lang="fr">SC</title></programme>
@@ -865,8 +869,6 @@
 <programme start="20261012020000 +0000" stop="20261012023000 +0000" channel="TSN2.ca@SD"><title lang="fr">SC</title></programme>
 <programme start="20261012023000 +0000" stop="20261012030000 +0000" channel="TSN2.ca@SD"><title lang="fr">SC</title></programme>
 <programme start="20261012030000 +0000" stop="20261012033000 +0000" channel="TSN2.ca@SD"><title lang="fr">Tennis WTA</title></programme>
-<programme start="20261010183000 +0000" stop="20261010203000 +0000" channel="TSN3.ca@SD"><title lang="fr">Soccer de la MLS</title></programme>
-<programme start="20261010203000 +0000" stop="20261010210000 +0000" channel="TSN3.ca@SD"><title lang="fr">SC</title></programme>
 <programme start="20261010210000 +0000" stop="20261010213000 +0000" channel="TSN3.ca@SD"><title lang="fr">Canadian Dirt Series</title></programme>
 <programme start="20261010213000 +0000" stop="20261010230000 +0000" channel="TSN3.ca@SD"><title lang="fr">2026 NB3 Canadian Junior Golf Western Championship</title></programme>
 <programme start="20261010230000 +0000" stop="20261011020000 +0000" channel="TSN3.ca@SD"><title lang="fr">Football</title></programme>
@@ -878,16 +880,19 @@
 <programme start="20261011140000 +0000" stop="20261011150000 +0000" channel="TSN3.ca@SD"><title lang="fr">Sportscentre</title></programme>
 <programme start="20261011150000 +0000" stop="20261011160000 +0000" channel="TSN3.ca@SD"><title lang="fr">Sportscentre</title></programme>
 <programme start="20261011150000 +0000" stop="20261011160000 +0000" channel="TSN3.ca@SD"><title lang="fr">Sportscentre</title></programme>
+<programme start="20261011150000 +0000" stop="20261011160000 +0000" channel="TSN3.ca@SD"><title lang="fr">Sportscentre</title></programme>
+<programme start="20261011160000 +0000" stop="20261011163000 +0000" channel="TSN3.ca@SD"><title lang="fr">SC</title></programme>
 <programme start="20261011160000 +0000" stop="20261011163000 +0000" channel="TSN3.ca@SD"><title lang="fr">SC</title></programme>
 <programme start="20261011160000 +0000" stop="20261011163000 +0000" channel="TSN3.ca@SD"><title lang="fr">SC</title></programme>
 <programme start="20261011163000 +0000" stop="20261011170000 +0000" channel="TSN3.ca@SD"><title lang="fr">SC</title></programme>
+<programme start="20261011163000 +0000" stop="20261011170000 +0000" channel="TSN3.ca@SD"><title lang="fr">SC</title></programme>
 <programme start="20261011170000 +0000" stop="20261011200000 +0000" channel="TSN3.ca@SD"><title lang="fr">Football</title></programme>
+<programme start="20261011170000 +0000" stop="20261011200000 +0000" channel="TSN3.ca@SD"><title lang="fr">Football</title></programme>
+<programme start="20261011200000 +0000" stop="20261011203000 +0000" channel="TSN3.ca@SD"><title lang="fr">Football</title></programme>
 <programme start="20261011200000 +0000" stop="20261011230000 +0000" channel="TSN3.ca@SD"><title lang="fr">Football</title></programme>
 <programme start="20261011230000 +0000" stop="20261012001500 +0000" channel="TSN3.ca@SD"><title lang="fr">Football Night in America</title></programme>
 <programme start="20261012001500 +0000" stop="20261012033000 +0000" channel="TSN3.ca@SD"><title lang="fr">Football</title></programme>
 <programme start="20261012033000 +0000" stop="20261012040000 +0000" channel="TSN3.ca@SD"><title lang="fr">SC With Jay and Dan</title></programme>
-<programme start="20261010170000 +0000" stop="20261010190000 +0000" channel="TSN4.ca@SD"><title lang="fr">AFL Women's Series</title></programme>
-<programme start="20261010190000 +0000" stop="20261010210000 +0000" channel="TSN4.ca@SD"><title lang="fr">AFL Women's Series</title></programme>
 <programme start="20261010210000 +0000" stop="20261010213000 +0000" channel="TSN4.ca@SD"><title lang="fr">Canadian Dirt Series</title></programme>
 <programme start="20261010213000 +0000" stop="20261010220000 +0000" channel="TSN4.ca@SD"><title lang="fr">SC</title></programme>
 <programme start="20261010220000 +0000" stop="20261010223000 +0000" channel="TSN4.ca@SD"><title lang="fr">SC</title></programme>
@@ -913,22 +918,24 @@
 <programme start="20261011100000 +0000" stop="20261011110000 +0000" channel="TSN4.ca@SD"><title lang="fr">Sportscentre</title></programme>
 <programme start="20261011110000 +0000" stop="20261011113000 +0000" channel="TSN4.ca@SD"><title lang="fr">Sportscentre</title></programme>
 <programme start="20261011110000 +0000" stop="20261011113000 +0000" channel="TSN4.ca@SD"><title lang="fr">Sportscentre</title></programme>
-<programme start="20261011110000 +0000" stop="20261011113000 +0000" channel="TSN4.ca@SD"><title lang="fr">Sportscentre</title></programme>
-<programme start="20261011113000 +0000" stop="20261011120000 +0000" channel="TSN4.ca@SD"><title lang="fr">Tennis WTA</title></programme>
+<programme start="20261011113000 +0000" stop="20261011140000 +0000" channel="TSN4.ca@SD"><title lang="fr">Tennis WTA</title></programme>
 <programme start="20261011113000 +0000" stop="20261011140000 +0000" channel="TSN4.ca@SD"><title lang="fr">Tennis WTA</title></programme>
 <programme start="20261011113000 +0000" stop="20261011140000 +0000" channel="TSN4.ca@SD"><title lang="fr">Tennis WTA</title></programme>
 <programme start="20261011140000 +0000" stop="20261011150000 +0000" channel="TSN4.ca@SD"><title lang="fr">Sportscentre</title></programme>
 <programme start="20261011140000 +0000" stop="20261011150000 +0000" channel="TSN4.ca@SD"><title lang="fr">Sportscentre</title></programme>
+<programme start="20261011140000 +0000" stop="20261011150000 +0000" channel="TSN4.ca@SD"><title lang="fr">Sportscentre</title></programme>
+<programme start="20261011150000 +0000" stop="20261011160000 +0000" channel="TSN4.ca@SD"><title lang="fr">Sportscentre</title></programme>
 <programme start="20261011150000 +0000" stop="20261011160000 +0000" channel="TSN4.ca@SD"><title lang="fr">Sportscentre</title></programme>
 <programme start="20261011150000 +0000" stop="20261011160000 +0000" channel="TSN4.ca@SD"><title lang="fr">Sportscentre</title></programme>
 <programme start="20261011160000 +0000" stop="20261011170000 +0000" channel="TSN4.ca@SD"><title lang="fr">Sportscentre</title></programme>
-<programme start="20261011160000 +0000" stop="20261011163000 +0000" channel="TSN4.ca@SD"><title lang="fr">Sportscentre</title></programme>
+<programme start="20261011160000 +0000" stop="20261011170000 +0000" channel="TSN4.ca@SD"><title lang="fr">Sportscentre</title></programme>
 <programme start="20261011170000 +0000" stop="20261011200000 +0000" channel="TSN4.ca@SD"><title lang="fr">Football</title></programme>
+<programme start="20261011170000 +0000" stop="20261011200000 +0000" channel="TSN4.ca@SD"><title lang="fr">Football</title></programme>
+<programme start="20261011200000 +0000" stop="20261011203000 +0000" channel="TSN4.ca@SD"><title lang="fr">Football</title></programme>
 <programme start="20261011200000 +0000" stop="20261011230000 +0000" channel="TSN4.ca@SD"><title lang="fr">Football</title></programme>
 <programme start="20261011230000 +0000" stop="20261012001500 +0000" channel="TSN4.ca@SD"><title lang="fr">Football Night in America</title></programme>
 <programme start="20261012001500 +0000" stop="20261012033000 +0000" channel="TSN4.ca@SD"><title lang="fr">Football</title></programme>
 <programme start="20261012033000 +0000" stop="20261012040000 +0000" channel="TSN4.ca@SD"><title lang="fr">SC With Jay and Dan</title></programme>
-<programme start="20261010193000 +0000" stop="20261010230000 +0000" channel="TSN5.ca@SD"><title lang="fr">Football de la NCAA</title></programme>
 <programme start="20261010230000 +0000" stop="20261010233000 +0000" channel="TSN5.ca@SD"><title lang="fr">SC</title></programme>
 <programme start="20261010233000 +0000" stop="20261011013000 +0000" channel="TSN5.ca@SD"><title lang="fr">Soccer de la MLS</title></programme>
 <programme start="20261011013000 +0000" stop="20261011020000 +0000" channel="TSN5.ca@SD"><title lang="fr">SC</title></programme>
@@ -948,12 +955,13 @@
 <programme start="20261011090000 +0000" stop="20261011100000 +0000" channel="TSN5.ca@SD"><title lang="fr">Sportscentre</title></programme>
 <programme start="20261011100000 +0000" stop="20261011103000 +0000" channel="TSN5.ca@SD"><title lang="fr">Sportscentre</title></programme>
 <programme start="20261011100000 +0000" stop="20261011103000 +0000" channel="TSN5.ca@SD"><title lang="fr">Sportscentre</title></programme>
-<programme start="20261011100000 +0000" stop="20261011103000 +0000" channel="TSN5.ca@SD"><title lang="fr">Sportscentre</title></programme>
-<programme start="20261011103000 +0000" stop="20261011110000 +0000" channel="TSN5.ca@SD"><title lang="fr">Formula One on the Grid</title></programme>
+<programme start="20261011103000 +0000" stop="20261011115500 +0000" channel="TSN5.ca@SD"><title lang="fr">Formula One on the Grid</title></programme>
 <programme start="20261011103000 +0000" stop="20261011115500 +0000" channel="TSN5.ca@SD"><title lang="fr">Formula One on the Grid</title></programme>
 <programme start="20261011103000 +0000" stop="20261011115500 +0000" channel="TSN5.ca@SD"><title lang="fr">Formula One on the Grid</title></programme>
 <programme start="20261011115500 +0000" stop="20261011140000 +0000" channel="TSN5.ca@SD"><title lang="fr">Grand Prix de Singapour</title></programme>
 <programme start="20261011115500 +0000" stop="20261011140000 +0000" channel="TSN5.ca@SD"><title lang="fr">Grand Prix de Singapour</title></programme>
+<programme start="20261011115500 +0000" stop="20261011140000 +0000" channel="TSN5.ca@SD"><title lang="fr">Grand Prix de Singapour</title></programme>
+<programme start="20261011140000 +0000" stop="20261011150000 +0000" channel="TSN5.ca@SD"><title lang="fr">Paddock Live</title></programme>
 <programme start="20261011140000 +0000" stop="20261011150000 +0000" channel="TSN5.ca@SD"><title lang="fr">Paddock Live</title></programme>
 <programme start="20261011140000 +0000" stop="20261011150000 +0000" channel="TSN5.ca@SD"><title lang="fr">Paddock Live</title></programme>
 <programme start="20261011150000 +0000" stop="20261011160000 +0000" channel="TSN5.ca@SD"><title lang="fr">Sportscentre</title></programme>
@@ -961,23 +969,24 @@
 <programme start="20261011160000 +0000" stop="20261011163000 +0000" channel="TSN5.ca@SD"><title lang="fr">SC</title></programme>
 <programme start="20261011160000 +0000" stop="20261011163000 +0000" channel="TSN5.ca@SD"><title lang="fr">SC</title></programme>
 <programme start="20261011163000 +0000" stop="20261011170000 +0000" channel="TSN5.ca@SD"><title lang="fr">SC</title></programme>
+<programme start="20261011163000 +0000" stop="20261011170000 +0000" channel="TSN5.ca@SD"><title lang="fr">SC</title></programme>
+<programme start="20261011170000 +0000" stop="20261011173000 +0000" channel="TSN5.ca@SD"><title lang="fr">SC</title></programme>
 <programme start="20261011170000 +0000" stop="20261011173000 +0000" channel="TSN5.ca@SD"><title lang="fr">SC</title></programme>
 <programme start="20261011173000 +0000" stop="20261011180000 +0000" channel="TSN5.ca@SD"><title lang="fr">SC</title></programme>
+<programme start="20261011173000 +0000" stop="20261011180000 +0000" channel="TSN5.ca@SD"><title lang="fr">SC</title></programme>
+<programme start="20261011180000 +0000" stop="20261011183000 +0000" channel="TSN5.ca@SD"><title lang="fr">Canadian Dirt Series</title></programme>
 <programme start="20261011180000 +0000" stop="20261011183000 +0000" channel="TSN5.ca@SD"><title lang="fr">Canadian Dirt Series</title></programme>
 <programme start="20261011183000 +0000" stop="20261011190000 +0000" channel="TSN5.ca@SD"><title lang="fr">NASCAR Sprint Cup Pre-Race</title></programme>
+<programme start="20261011183000 +0000" stop="20261011190000 +0000" channel="TSN5.ca@SD"><title lang="fr">NASCAR Sprint Cup Pre-Race</title></programme>
+<programme start="20261011190000 +0000" stop="20261011193000 +0000" channel="TSN5.ca@SD"><title lang="fr">Série Coupe NASCAR</title></programme>
 <programme start="20261011190000 +0000" stop="20261011223000 +0000" channel="TSN5.ca@SD"><title lang="fr">Série Coupe NASCAR</title></programme>
 <programme start="20261011223000 +0000" stop="20261011230000 +0000" channel="TSN5.ca@SD"><title lang="fr">SC</title></programme>
 <programme start="20261011230000 +0000" stop="20261012001500 +0000" channel="TSN5.ca@SD"><title lang="fr">Football Night in America</title></programme>
 <programme start="20261012001500 +0000" stop="20261012033000 +0000" channel="TSN5.ca@SD"><title lang="fr">Football</title></programme>
 <programme start="20261012033000 +0000" stop="20261012040000 +0000" channel="TSN5.ca@SD"><title lang="fr">SC</title></programme>
-<programme start="20261010160000 +0000" stop="20261010180000 +0000" channel="X/USA-DITV-DEFAULT/DITV/USA/12084/32281"><title lang="es">NBA Playback</title><desc lang="es">From Oct. 9, 2026.</desc><icon src="https://zap2it.tmsimg.com/assets/p31717868_b_v13_aa.jpg"/><episode-num system="xmltv_ns">1.5.0/1</episode-num><episode-num system="onscreen">S02E06</episode-num></programme>
-<programme start="20261010180000 +0000" stop="20261010200000 +0000" channel="X/USA-DITV-DEFAULT/DITV/USA/12084/32281"><title lang="es">Bundesliga Basketball</title><sub-title lang="es">VET-Concept Gladiators Trier vs. Alba Berlin</sub-title><desc lang="es">From SWT-Arena in Trier, Germany.</desc><icon src="https://zap2it.tmsimg.com/assets/GNLZZGG003HQ8CE.jpg"/></programme>
 <programme start="20261010200000 +0000" stop="20261010213000 +0000" channel="X/USA-DITV-DEFAULT/DITV/USA/12084/32281"><title lang="es">WNBA Playback</title><desc lang="es">From Oct. 9, 2026.</desc><icon src="https://zap2it.tmsimg.com/assets/p33371994_b_v13_aa.jpg"/><episode-num system="xmltv_ns">0.79.0/1</episode-num><episode-num system="onscreen">S01E80</episode-num></programme>
 <programme start="20261010213000 +0000" stop="20261010233000 +0000" channel="X/USA-DITV-DEFAULT/DITV/USA/12084/32281"><title lang="es">NBA Playback</title><desc lang="es">A look back at one of the best games in the NBA from the previous night.</desc><icon src="https://zap2it.tmsimg.com/assets/p31717868_b_v13_aa.jpg"/></programme>
 <programme start="20261010233000 +0000" stop="20261011000000 +0000" channel="X/USA-DITV-DEFAULT/DITV/USA/12084/32281"><title lang="es">The Association: Pregame</title><desc lang="es">The Association will celebrate the game, players and the culture of the NBA; inform and entertain viewers with league news, analysis and storylines; and guide fans to the must-watch action across the league in real time.</desc><icon src="https://zap2it.tmsimg.com/assets/p31455862_b_v13_aa.jpg"/></programme>
-<programme start="20261011160000 +0000" stop="20261011180000 +0000" channel="X/USA-DITV-DEFAULT/DITV/USA/12084/32281"><title lang="es">NBA Playback</title><desc lang="es">From Oct. 10, 2026.</desc><icon src="https://zap2it.tmsimg.com/assets/p31717868_b_v13_aa.jpg"/><episode-num system="xmltv_ns">1.6.0/1</episode-num><episode-num system="onscreen">S02E07</episode-num></programme>
-<programme start="20261011180000 +0000" stop="20261011193000 +0000" channel="X/USA-DITV-DEFAULT/DITV/USA/12084/32281"><title lang="es">WNBA Playback</title><desc lang="es">Replay action from a WNBA matchup.</desc><icon src="https://zap2it.tmsimg.com/assets/p33371994_b_v13_aa.jpg"/></programme>
-<programme start="20261011193000 +0000" stop="20261011203000 +0000" channel="X/USA-DITV-DEFAULT/DITV/USA/12084/32281"><title lang="es">The Steam Room</title><sub-title lang="es">Eps. 1 &amp; 2</sub-title><desc lang="es">After 20+ years together on Inside The NBA, Ernie Johnson and Charles Barkley still have a lot to talk about. The Steam Room is a platform for EJ, Chuck and guests to explore conversations about the world of basketball and beyond.</desc><icon src="https://zap2it.tmsimg.com/assets/p34307177_b_v13_aa.jpg"/></programme>
 <programme start="20261011203000 +0000" stop="20261011210000 +0000" channel="X/USA-DITV-DEFAULT/DITV/USA/12084/32281"><title lang="es">NBA Stories</title><sub-title lang="es">Richard Hamilton</sub-title><desc lang="es">NBA Champion Richard Hamilton discusses his signature ability to move without the ball and convert his classic mid-range shots with Thinking Basketball creator Ben Taylor.</desc><icon src="https://zap2it.tmsimg.com/assets/p33957045_b_v13_aa.jpg"/><episode-num system="xmltv_ns">0.2.0/1</episode-num><episode-num system="onscreen">S01E03</episode-num></programme>
 <programme start="20261011210000 +0000" stop="20261011213000 +0000" channel="X/USA-DITV-DEFAULT/DITV/USA/12084/32281"><title lang="es">Nash &amp; Nowitzki: A Basketball Friendship</title><desc lang="es">Hall of Famers Steve Nash and Dirk Nowitzki reflect on their friendship through the years as teammates, opponents, and co-workers in the broadcasting industry.</desc><icon src="https://zap2it.tmsimg.com/assets/p33945843_b_v13_ab.jpg"/></programme>
 <programme start="20261011213000 +0000" stop="20261012000000 +0000" channel="X/USA-DITV-DEFAULT/DITV/USA/12084/32281"><title lang="es">NBA Basketball</title><sub-title lang="es">Dallas Mavericks vs. Houston Rockets</sub-title><desc lang="es">Professional basketball action from the NBA.</desc><icon src="https://zap2it.tmsimg.com/assets/GNLZZGG003M3Y85.jpg"/></programme>
