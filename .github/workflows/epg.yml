@@ -2,8 +2,8 @@ name: Generate EPG
 
 on:
   schedule:
-    - cron: '0 */6 * * *'   # Run every 6 hours
-  workflow_dispatch:         # Allow manual trigger
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -14,10 +14,10 @@ on:
       - 'translator.py'
 
 permissions:
-  contents: write            # Allow committing changes
+  contents: write
 
 concurrency:
-  group: git-write-lock      # Prevent overlapping runs
+  group: git-write-lock
   cancel-in-progress: false
 
 jobs:
@@ -49,15 +49,17 @@ jobs:
           pip install -r requirements.txt
           pip install deep-translator langdetect lxml
 
-      - name: Clone IPTV-ORG EPG tool
-        run: git clone --depth 1 https://github.com/iptv-org/epg.git epg-tool
+      - name: Clone IPTV-ORG EPG Tool
+        run: |
+          git clone --depth 1 https://github.com/iptv-org/epg.git epg-tool
 
-      - name: Install Node dependencies
+      - name: Install Node Dependencies
         working-directory: epg-tool
         run: npm ci
 
-      - name: Copy custom channels file
-        run: cp list.xml epg-tool/sites/list.xml
+      - name: Copy Custom Channels File
+        run: |
+          cp list.xml epg-tool/sites/list.xml
 
       - name: Generate Base EPG
         working-directory: epg-tool
@@ -68,7 +70,8 @@ jobs:
             --maxConnections=8
 
       - name: Backup pre-merge epg.xml
-        run: cp epg.xml epg.xml.bak
+        run: |
+          cp epg.xml epg.xml.bak
 
       - name: Verify Unified EPG Output Is Well-Formed
         run: |
@@ -77,6 +80,7 @@ jobs:
           import sys
 
           path = "epg.xml"
+
           try:
               root = ET.parse(path).getroot()
           except Exception as e:
@@ -85,25 +89,26 @@ jobs:
 
           channels = len(root.findall("channel"))
           programmes = len(root.findall("programme"))
-          print(f"==== Unified EPG Stats ====")
+
+          print("==== Unified EPG Stats ====")
           print(f"Total Channels: {channels}")
           print(f"Total Programmes: {programmes}")
 
           if channels == 0 or programmes == 0:
-              print("FATAL: epg.xml has zero channels or programmes. Refusing to commit.")
+              print("FATAL: epg.xml contains no channels or programmes.")
               sys.exit(1)
           PY
 
-      - name: Translate EPG to English (keep Indonesian unchanged)
+      - name: Translate EPG to English
         run: |
           python3 translator.py epg.xml epg.xml
 
-      - name: Compress epg.xml to epg.xml.gz
+      - name: Compress epg.xml
         run: |
           gzip -c epg.xml > epg.xml.gz
           ls -lh epg.xml.gz
 
-      - name: Upload epg.xml.gz Artifact
+      - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
           name: epg-output
@@ -127,27 +132,42 @@ jobs:
 
           root = tree.getroot()
           entries = []
+
           for channel in root.findall("channel"):
               tvg_id = channel.attrib.get("xmltv_id", "").strip()
               name = (channel.text or "").strip()
+
               if tvg_id:
                   entries.append(f'{tvg_id} "{name}"')
 
-          entries = sorted(set(entries), key=lambda x: x.lower())
-          out.write_text("\n".join(entries), encoding="utf-8")
-          print(f"Generated channels.txt index with {len(entries)} items.")
+          entries = sorted(set(entries), key=str.lower)
+
+          out.write_text(
+              "\n".join(entries),
+              encoding="utf-8"
+          )
+
+          print(f"Generated list.txt with {len(entries)} entries.")
           PY
 
-      - name: Cleanup backup file
-        if: success()
-        run: rm -f epg.xml.bak
-
-      - name: Commit and Push (Keep History Clean)
+      - name: Cleanup Temporary Files
+        if: always()
         run: |
+          rm -f epg.xml.bak
+          rm -rf epg-tool
+
+      - name: Commit and Push
+        run: |
+          set -e
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add -A 
+          echo "Repository status:"
+          git status --short
+
+          # Hanya file output yang disimpan
+          git add epg.xml epg.xml.gz list.txt
 
           if git diff-index --quiet HEAD --; then
             echo "No changes detected. Skipping commit."
@@ -157,6 +177,7 @@ jobs:
           LAST_AUTHOR=$(git log -1 --format='%ae')
           BOT_EMAIL="41898282+github-actions[bot]@users.noreply.github.com"
           TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
+
           IS_AMEND=false
 
           if [ "$LAST_AUTHOR" = "$BOT_EMAIL" ]; then
@@ -170,29 +191,26 @@ jobs:
 
           for i in 1 2 3; do
             echo "Syncing with remote (Attempt $i/3)..."
+
             git fetch origin main
 
-            if ! git rebase origin/main -Xtheirs; then
-              echo "Rebase failed. Aborting."
-              git rebase --abort
+            if ! git rebase origin/main -X theirs; then
+              echo "Rebase failed."
+              git rebase --abort || true
               exit 1
             fi
 
-            echo "Pushing changes..."
+            echo "Pushing..."
+
             if [ "$IS_AMEND" = true ]; then
-              PUSH_CMD="git push origin main --force-with-lease"
+              git push origin main --force-with-lease && exit 0
             else
-              PUSH_CMD="git push origin main"
+              git push origin main && exit 0
             fi
 
-            if $PUSH_CMD; then
-              echo "Push done."
-              exit 0
-            fi
-
-            echo "Push rejected, tried rebase ..."
+            echo "Push rejected. Retrying..."
             sleep 2
           done
 
-          echo "Push failed 3 times."
+          echo "Push failed after 3 attempts."
           exit 1
